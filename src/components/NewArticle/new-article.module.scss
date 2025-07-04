@@ -1,0 +1,129 @@
+.registr {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.styles.registr__title {
+  text-align: center;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(38, 38, 38);
+  font-weight: 500;
+}
+
+.signup-form {
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21px;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(38, 38, 38);
+  margin-bottom: 2px;
+}
+
+.input {
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 12px;
+  border: 1px solid rgb(217, 217, 217);
+}
+
+.textarea {
+  resize: vertical;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 12px;
+  border: 1px solid rgb(217, 217, 217);
+  min-height: 168px;
+}
+
+.tags__list-item {
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.tags__list-item-input {
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 8px 12px;
+  border: 1px solid rgb(217, 217, 217);
+  margin-right: 17px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  border-radius: 4px;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.btn__delete {
+  color: red;
+  border: 1px solid red;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: rgb(184, 20, 20);
+  }
+}
+
+.btn__addTag {
+  color: rgb(24, 144, 255);
+  border: 1px solid rgb(24, 144, 255);
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: rgb(21, 119, 211);
+  }
+}
+
+.send-button {
+  background: rgb(24, 144, 255);
+  color: #fff;
+  width: 100%;
+  max-width: 319px;
+  border: 1px solid rgb(24, 144, 255);
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background: rgb(18, 115, 206);
+  }
+}
+
+.err {
+  border: 1px solid red !important;
+}
+
+.error__message {
+  font-size: 14px;
+  color: red;
+}

@@ -1,0 +1,55 @@
+.modalDelete {
+  position: absolute;
+  left: 59%;
+  top: 0;
+  width: 220px;
+  max-width: 220px;
+  padding: 12px 16px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: end;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.modalDelete__message {
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(89, 89, 89);
+
+  &::before {
+    content: "";
+  }
+}
+
+.btn {
+  height: 24px;
+  cursor: pointer;
+  border: 1px solid rgb(217, 217, 217);
+  padding: 1px 8px;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgb(89, 89, 89);
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    border: 1px solid rgb(24, 144, 255);
+    background: rgb(24, 144, 255);
+    color: #fff;
+  }
+}
+
+.btn__yes {
+  margin-left: 5px;
+}
+
+.svgAttention {
+  position: absolute;
+  left: -9px;
+  top: 1px;
+}

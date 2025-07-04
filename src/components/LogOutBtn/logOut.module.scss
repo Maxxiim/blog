@@ -1,0 +1,14 @@
+.btn-logout {
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 6px 10px;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  background: #fff;
+
+  &:hover {
+    color: #000;
+  }
+}

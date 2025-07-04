@@ -1,0 +1,12 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+  line-height: 28px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #545454;
+  }
+}

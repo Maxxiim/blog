@@ -1,0 +1,24 @@
+.header {
+    background: #fff;
+    padding: 16px 22px;
+    margin-bottom: 26px;
+}
+
+.header__block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__descr {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+}

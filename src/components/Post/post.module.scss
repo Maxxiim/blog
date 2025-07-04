@@ -1,0 +1,228 @@
+.post {
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-left: 14px;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 0px 2px 4px rgba(0, 0, 0, 0.02);
+  padding-bottom: 50px;
+}
+
+.post__item-descr {}
+
+.post__item-descr-tags {
+  display: flex;
+  gap: 10px;
+}
+
+.post__item-descr-tag {
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 2px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.post__item-descr-tag__active {
+  color: #000;
+  border-radius: 2px;
+  padding: 2px 6px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.posts__item-descr-block {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts__item-descr-block-btns {
+  position: relative;
+  display: flex;
+  gap: 12px;
+}
+
+.posts__item-descr-text {
+  flex: 1;
+  max-width: 680px;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 25px;
+}
+
+.posts__main-markdown {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.75);
+  max-width: 940px;
+  width: 100%;
+}
+
+.posts__item {
+  max-width: 932px;
+  width: 100%;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 15px 14px 22px 20px;
+  margin-bottom: 26px;
+}
+
+.posts__item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.posts__item-header-title-block {
+  display: flex;
+  gap: 13px;
+}
+
+.posts__item-header-block-title {
+  width: 100%;
+  max-width: 300px;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(24, 144, 255);
+}
+
+.posts__item-header-rating {
+  display: flex;
+}
+
+.posts__item-header-rating-like {
+  cursor: pointer;
+  position: relative;
+  padding-top: 7px;
+  transition: all 0.2s ease-in-out;
+  background-size: cover;
+  height: 22px;
+  margin-right: 5px;
+
+  &:hover {
+    fill: red;
+  }
+}
+
+.posts__item-header-rating-like_active {
+  cursor: pointer;
+  position: relative;
+  padding-top: 7px;
+  transition: all 0.2s ease-in-out;
+  background-size: cover;
+  height: 22px;
+  margin-right: 5px;
+  fill: red;
+
+  &:hover {
+    fill: red;
+  }
+}
+
+.btn__like {
+  border: none;
+  background: none;
+}
+
+.posts__item-header-rating-count {
+  font-size: 12px;
+  padding-top: 3px;
+  line-height: 22px;
+  color: #000;
+}
+
+.posts__item-header-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.posts-header-user-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: end;
+}
+
+.posts__item-header-user-name {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.85);
+  display: block;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.posts__item-header-user-date {
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.posts-header-user-img {
+  cursor: pointer;
+  display: block;
+  margin-left: 12px;
+}
+
+.posts__item-descr {}
+
+.posts__item-descr-tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.posts__item-descr-tag {
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 2px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.posts__item-descr-tag__active {
+  color: #000;
+  border-radius: 2px;
+  padding: 2px 6px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.posts__item-descr-text {
+  max-width: 680px;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.posts-header-user-img {
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  margin-left: 12px;
+}

@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+  line-height: 28px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #001952;
+  }
+}
+
+.btn__up {
+  padding: 6px 12px;
+  border: 1px solid rgb(82, 196, 26);
+  border-radius: 5px;
+  color: rgb(82, 196, 26);
+}

@@ -1,0 +1,23 @@
+.btn {
+  position: relative;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+  background: #fff;
+  border: 1px solid black;
+  padding: 6px 19px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  position: relative;
+  border: 1px solid rgb(245, 34, 45);
+  color: rgb(245, 34, 45);
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: rgb(160, 23, 30);
+  }
+}
