@@ -3,10 +3,10 @@ import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import createNewArticle from "../../redux/api/newArticle-api";
-import { getPost } from "../../redux/api/post-api";
-import updateArticle from "../../redux/api/upd-article-api";
-import fetchArticles from "../../redux/api/articles-api";
+import createNewArticle from "../../api/newArticle-api";
+import { getPost } from "../../redux/thunks/post-api";
+import updateArticle from "../../api/upd-article-api";
+import fetchArticles from "../../redux/thunks/articles-api";
 import { postSuccess } from "../../redux/action/post-action";
 
 import styles from "./new-article.module.scss";

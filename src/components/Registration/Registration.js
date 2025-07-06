@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
-import postCreateUser from "../../redux/api/createUser-api";
+import postCreateUser from "../../api/createUser-api";
 import {
   requestUser,
   successUser,

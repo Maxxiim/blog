@@ -4,15 +4,15 @@ import { useDispatch, useSelector } from "react-redux";
 import ReactMarkdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 
-import { getPost } from "../../redux/api/post-api";
+import { getPost } from "../../redux/thunks/post-api";
 import Spinner from "../Spinner/Spinner";
 import DeleteBtn from "../btnDelete/Delete-btn";
 import EditBtn from "../btnEdit/Edit-btn";
 import ModalDelete from "../modalDelete/modalDelete";
-import delArticle from "../../redux/api/del-article-api";
-import fetchArticles from "../../redux/api/articles-api";
-import dislikeArticle from "../../redux/api/dislike-article-api";
-import likeArticle from "../../redux/api/like-article-api";
+import delArticle from "../../api/del-article-api";
+import fetchArticles from "../../redux/thunks/articles-api";
+import dislikeArticle from "../../api/dislike-article-api";
+import likeArticle from "../../api/like-article-api";
 
 import styles from "./post.module.scss";
 const Post = () => {

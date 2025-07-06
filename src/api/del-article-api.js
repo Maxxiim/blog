@@ -1,5 +1,4 @@
 const delArticle = async (slug) => {
-  console.log(slug);
   const dataUserLocalStorage = localStorage.getItem("userData");
   const parseDataUser = JSON.parse(dataUserLocalStorage);
   const token = parseDataUser.token;
@@ -22,7 +21,6 @@ const delArticle = async (slug) => {
       };
     }
 
-    console.log("Статья успешно удалена");
     return true;
   } catch (error) {
     console.error("Delete error:", error);

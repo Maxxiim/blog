@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 
-import updateUser from "../../redux/api/upd-user-api";
+import updateUser from "../../api/upd-user-api";
 import { successUser } from "../../redux/action/user-action";
 
 import styles from "./edit-profile.module.scss";

@@ -4,11 +4,11 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 import profile from "../../img/user/profile.svg";
-import fetchArticles from "../../redux/api/articles-api";
-import { getPost } from "../../redux/api/post-api";
+import fetchArticles from "../../redux/thunks/articles-api";
+import { getPost } from "../../redux/thunks/post-api";
 import Spinner from "../Spinner/Spinner";
-import likeArticle from "../../redux/api/like-article-api";
-import dislikeArticle from "../../redux/api/dislike-article-api";
+import likeArticle from "../../api/like-article-api";
+import dislikeArticle from "../../api/dislike-article-api";
 
 import styles from "./posts.module.scss";
 

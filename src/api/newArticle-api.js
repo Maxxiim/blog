@@ -1,5 +1,4 @@
 const createNewArticle = async (articleData) => {
-  console.log(articleData);
   try {
     const dataUserLocalStorage = localStorage.getItem("userData");
     const parseDataUser = JSON.parse(dataUserLocalStorage);

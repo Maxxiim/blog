@@ -2,7 +2,7 @@ import {
   articlesRequest,
   articlesSuccess,
   setError,
-} from "../action/articles-action";
+} from "../../redux/action/articles-action";
 
 const fetchArticles = (page, limit) => async (dispatch) => {
   const offset = (page - 1) * limit;

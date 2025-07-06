@@ -1,4 +1,8 @@
-import { postRequest, postSuccess, postError } from "../action/post-action";
+import {
+  postRequest,
+  postSuccess,
+  postError,
+} from "../../redux/action/post-action";
 
 export const getPost = (slug) => async (dispatch) => {
   if (!slug) return;

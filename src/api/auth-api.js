@@ -1,5 +1,4 @@
 export const postAuthUser = async (dataUser) => {
-  console.log(dataUser);
   try {
     const response = await fetch(
       "https://blog-platform.kata.academy/api/users/login",

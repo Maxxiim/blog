@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 
-import { postAuthUser } from "../../redux/api/auth-api";
+import { postAuthUser } from "../../api/auth-api";
 import { requestUser, successUser } from "../../redux/action/user-action";
 
 import styles from "./authForm.module.scss";
